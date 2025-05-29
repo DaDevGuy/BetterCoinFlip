@@ -4,5 +4,6 @@ branches:
 - master
 projects:
   CoinFlip:
-    path: "assets/images/coin.png"
+    path: ""
+    icon: "assets/images/coin.png"
 ...
