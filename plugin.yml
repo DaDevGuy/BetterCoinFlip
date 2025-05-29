@@ -1,0 +1,9 @@
+name: CoinFlip
+main: DaDevGuy\CoinFlip\Main
+version: 1.0.0
+api: 5.3.0
+description: "A PocketMine-MP CoinFlip plugin made for 5.0 servers"
+
+permissions:
+  flip.coin:
+    default: true
