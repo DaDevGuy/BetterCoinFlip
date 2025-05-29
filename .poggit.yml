@@ -1,0 +1,9 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/DaDevGuy/BetterCoinFlip
+build-by-default: true
+branches:
+- master
+projects:
+  BetterCoinFlip:
+    path: ""
+    icon: "assets/images/coin.png"
+...
