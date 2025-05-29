@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace DaDevGuy\CoinFlip;
+namespace DaDevGuy\BetterCoinFlip;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;

@@ -1,10 +1,10 @@
-# CoinFlip
+# BetterCoinFlip
 
 A simple and interactive coin flipping plugin for PocketMine-MP 5.x servers.
 
 ## Description
 
-CoinFlip is a lightweight plugin that adds a fun coin flip command to your PocketMine-MP server. When a player uses the command, they'll see an animated coin flip with sound effects (if supported) and receive the result (Heads or Tails).
+BetterCoinFlip is a lightweight plugin that adds a fun coin flip command to your PocketMine-MP server. When a player uses the command, they'll see an animated coin flip with sound effects (if supported) and receive the result (Heads or Tails).
 
 ## Features
 
