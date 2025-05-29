@@ -1,4 +1,4 @@
-name: CoinFlip
+name: BetterCoinFlip
 main: DaDevGuy\BetterCoinFlip\Main
 version: 1.0.0
 api: 5.3.0
