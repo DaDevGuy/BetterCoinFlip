@@ -4,6 +4,12 @@ version: 1.0.0
 api: 5.3.0
 description: "A PocketMine-MP CoinFlip plugin made for 5.0 servers"
 
+commands:
+  flip:
+    description: "Flip a Coin"
+    usage: "/coinflip"
+    permission: flip.coin
+
 permissions:
   flip.coin:
     default: true

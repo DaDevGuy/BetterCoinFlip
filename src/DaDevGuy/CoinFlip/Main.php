@@ -18,7 +18,6 @@ class Main extends PluginBase implements Listener
     }
 
     /**
-     * Plays a coin flip animation for the player
      * @param Player $player
      * @param string $result
      */
@@ -37,15 +36,13 @@ class Main extends PluginBase implements Listener
         $frameIndex = 0;
         $scheduler = $this->getScheduler();
 
-        // Send title to indicate coin flip started
         $player->sendTitle(TextFormat::GOLD . "Flipping Coin", TextFormat::YELLOW . "Watch the coin flip!");
 
-        // Play sound if supported by PocketMine version
         if(method_exists($player, "playSound")) {
             $player->playSound("random.click", 1, 1, true);
         }
 
-        // Schedule the animation frames
+        // animate frames
         $taskHandler = $scheduler->scheduleRepeatingTask(new ClosureTask(
             function() use ($player, $animationFrames, &$frameIndex, &$taskHandler, $result, $scheduler): void {
                 if($frameIndex < count($animationFrames)) {
