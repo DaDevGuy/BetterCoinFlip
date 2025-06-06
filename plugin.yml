@@ -9,8 +9,8 @@ commands:
   flip:
     description: "Flip a Coin"
     usage: "/coinflip"
-    permission: flip.coin
+    permission: bettercoinflip.cmd.flip
 
 permissions:
-  flip.coin:
+  bettercoinflip.cmd.flip:
     default: true

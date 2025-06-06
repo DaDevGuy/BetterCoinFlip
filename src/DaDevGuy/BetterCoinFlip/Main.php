@@ -70,7 +70,7 @@ class Main extends PluginBase implements Listener
 
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool {
         if($command->getName() === "flip") {
-            if(!$sender->hasPermission("flip.coin")) {
+            if(!$sender->hasPermission("bettercoinflip.cmd.flip")) {
                 $sender->sendMessage(TextFormat::RED . "You don't have permission to use this command!");
                 return true;
             }
